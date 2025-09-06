@@ -1,0 +1,12 @@
+name: Blue DevOps Print
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-blue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show Blue DevOps Message
+        run: |
+          echo -e "\033[34mI love DevOps\033[0m"
