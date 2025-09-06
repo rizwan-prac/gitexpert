@@ -7,3 +7,5 @@ git add . → changes stage karna
 git commit -m "message" → changes save karna
 
 git push / git pull → GitHub ke sath sync karna
+
+
