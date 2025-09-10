@@ -37,3 +37,14 @@ elif choice == '4':
     print(f"Result: {divide(num1, num2)}")
 else:
     print("Invalid input")
+
+
+git stash              # changes temporary save ho jaayenge
+git checkout main      # branch switch kar lo
+git stash pop          # changes wapas laao
+
+
+git revert abc123        # safe undo
+git reset --hard abc123  # pura history wapas us commit t
+
+
